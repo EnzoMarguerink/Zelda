@@ -5,7 +5,6 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     [SerializeField] private Transform target;
-    //[SerializeField] private Vector2  8, 5.5f;
 
     private void Update()
     {
