@@ -59,8 +59,7 @@ public class Enemy : MonoBehaviour
     {
         UpdateAnimatorValues();
 
-        // print("direction to player: " + CalculateDirection(transform.position, player.transform.position));
-        // print("Angle to player: " + CalculateAngle(transform.position, player.transform.position));
+        
         if (state == EnemyState.roaming)
         {
             ProcessRoaming();
